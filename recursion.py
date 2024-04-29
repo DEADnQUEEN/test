@@ -8,4 +8,4 @@ def recursion(palindrome: str) -> bool:
     return recursion(palindrome[1:-1])
 
 if __name__ == '__main__':
-    ...
+    recursion(input())
