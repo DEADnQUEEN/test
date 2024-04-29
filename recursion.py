@@ -3,4 +3,4 @@ def recursion(palindrome: str) -> bool:
         return True
     
     if palindrome[0] != palindrome[-1]:
-        ...
+        return False
