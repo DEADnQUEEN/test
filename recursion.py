@@ -6,3 +6,6 @@ def recursion(palindrome: str) -> bool:
         return False
     
     return recursion(palindrome[1:-1])
+
+if __name__ == '__main__':
+    ...
